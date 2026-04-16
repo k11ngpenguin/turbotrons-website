@@ -803,8 +803,9 @@ hr.div { border:none; border-top:1px solid var(--line) }
   backdrop-filter: blur(4px);
   opacity: 0;
   transition: opacity 0.25s;
+  pointer-events: none;
 }
-.nav-overlay.open { opacity: 1 }
+.nav-overlay.open { opacity: 1; pointer-events: auto; }
 
 .nav-drawer {
   display: none;
