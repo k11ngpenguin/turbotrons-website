@@ -823,8 +823,8 @@ hr.div { border:none; border-top:1px solid var(--line) }
   overflow-y: auto;
   box-shadow: -20px 0 60px rgba(0,0,0,0.6);
 }
-.nav-drawer.open { transform: translateX(0) }
-
+/* .nav-drawer.open { transform: translateX(0) } */
+.nav-drawer.open { transform: translateX(0); pointer-events: auto; }
 .nav-drawer-header {
   display: flex;
   align-items: center;
@@ -927,9 +927,12 @@ hr.div { border:none; border-top:1px solid var(--line) }
   .nav { padding: 0 20px }
   .nav-links { display: none }
   .nav-hamburger { display: flex }
-  .nav-overlay { display: block }
-  .nav-drawer { display: block }
-
+  /* .nav-overlay { display: block }
+  .nav-drawer { display: block } */
+  /*added*/
+  .nav-overlay { display: block; pointer-events: none; }
+  .nav-drawer { display: block; pointer-events: none; }
+  /* */
   .wrap { padding: 0 20px }
   .hero-content { padding: 0 20px 60px; flex-direction: column; align-items: flex-start; gap: 24px }
   .hero-right { text-align: left }
