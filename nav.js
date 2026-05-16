@@ -27,6 +27,7 @@
       <a href="outreach.html" class="${active('outreach.html')}">Outreach</a>
       <a href="sponsers.html" class="${active('sponsers.html')}">Sponsors</a>
       <a href="contact.html" class="${active('contact.html')}">Contact</a>
+      <a href="apply.html" class="${active('apply.html')}">Apply</a>      
 
       <div class="nav-drawer-divider"></div>
       <div class="nav-drawer-section-label">Past Seasons</div>
